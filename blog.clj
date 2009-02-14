@@ -1,7 +1,7 @@
 (ns neenaj.blog 
   (:use (clojure.contrib sql)
         (compojure html))
-  (:require [neenaj.db_conf])) ;;(def conn_string "host/db_name?user=someone&password=somepass")
+  (:require [neenaj.db_conf]))
 
 (def db {:classname   "com.mysql.jdbc.Driver"
          :subprotocol "mysql"
