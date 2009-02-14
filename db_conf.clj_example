@@ -1,0 +1,2 @@
+(ns db_conf)
+(def conn_string "host/db_name?user=someone&password=somepass")
